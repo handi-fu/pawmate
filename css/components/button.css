@@ -1,0 +1,15 @@
+/* Main call-to-action button */
+.btn-primary {
+  display: inline-block;
+  padding: 14px 26px;
+  color: #ffffff;
+  background-color: #d96f32;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 8px 18px rgba(122, 65, 38, 0.18);
+}
+
+.btn-primary:hover {
+  background-color: #bf5d27;
+}
