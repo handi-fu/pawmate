@@ -1,0 +1,91 @@
+/* Main stylesheet for PawMate */
+/* Component files are imported here to keep the project organized. */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* Basic page styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a2f25;
+  background-color: #fff7ec;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h2 {
+  color: #7a4126;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Adds comfortable space around the main content sections. */
+.intro-section,
+.services-section,
+.typeform-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.intro-section {
+  text-align: center;
+}
+
+.intro-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.services-section h2,
+.typeform-section h2,
+.typeform-section p {
+  text-align: center;
+}
+
+.typeform-section {
+  background-color: #ffe7df;
+  border-radius: 24px;
+  margin-bottom: 60px;
+}
+
+/* This box marks the place where a Typeform embed can be pasted later. */
+.typeform-placeholder {
+  max-width: 700px;
+  min-height: 180px;
+  margin: 30px auto 0;
+  padding: 40px 20px;
+  text-align: center;
+  border: 3px dashed #de8a4f;
+  border-radius: 18px;
+  background-color: #fffaf3;
+}
+
+.typeform-placeholder p {
+  margin: 0;
+  color: #8a5a44;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 25px 0;
+  text-align: center;
+  color: #fff7ec;
+  background-color: #7a4126;
+}
+
+.footer p {
+  margin: 0;
+}

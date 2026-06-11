@@ -1,0 +1,35 @@
+/* The container keeps content centered and easy to read. */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Medium screens, such as tablets */
+@media (max-width: 900px) {
+  .container {
+    width: 92%;
+  }
+}
+
+/* Small screens, such as phones */
+@media (max-width: 600px) {
+  .container {
+    width: 94%;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .intro-section,
+  .services-section,
+  .typeform-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
